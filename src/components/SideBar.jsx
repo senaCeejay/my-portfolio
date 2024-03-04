@@ -9,8 +9,8 @@ const SideBar = (props) => {
                     <h1 className='text-2xl font-bold text-sky-400'>Chris .</h1>
                     <ul className='gap-10 font-semibold mt-5'>
                         {pageheaderdata.map((val, index) => (
-                            <li key={index} className='p-2 ' >
-                                <Link to={val.path} onClick={props.closeModal}>
+                            <li key={index} className='p-2 'onClick={props.closeModal}>
+                                <Link to={val.path}>
                                     {val.name}
                                 </Link>
                             </li>
