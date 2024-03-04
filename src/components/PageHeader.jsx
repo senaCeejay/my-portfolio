@@ -1,7 +1,7 @@
 import React from 'react'
 import { HiMenuAlt2 } from "react-icons/hi";
 import { pageheaderdata } from '../data/pageheader'
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 const PageHeader = (props) => {
 
     return (
@@ -10,7 +10,7 @@ const PageHeader = (props) => {
                 <Link to='/'>
                     Chris .
                 </Link>
-                </h1>
+            </h1>
             <div>
                 <ul className='gap-5 font-semibold hidden md:flex'>
                     {pageheaderdata.map((val, index) => (
