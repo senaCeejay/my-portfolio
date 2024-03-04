@@ -8,15 +8,15 @@ const Hero = () => {
                 <div className='mt-2'>
                     <div className=''>
                         <p className='font-bold'>Hello, I'm</p>
-                        <h1 className='text-4xl lg:text-6xl font-bold text-sky-400'>Chris Cee-jay Sena</h1>
+                        <h1 className='text-3xl lg:text-6xl font-bold text-sky-400'>Chris Cee-jay Sena</h1>
                     </div>
-                    <div className='flex items-center gap-1 md:my-2'>
-                        <p className='text-xl md:text-2xl '>Front End Developer and UI/UX Designer</p>
+                    <div className='flex w-full justify-center lg:justify-start gap-1 md:my-2'>
+                        <p className='text-lg md:text-2xl font-semibold'>Front End Developer and UI/UX Designer</p>
                     </div>
-                    <div className='max-w-[600px] text-justify'>
+                    <div className='max-w-[600px] justify-center lg:justify-start flex'>
                         <p>Enthusiastic junior front-end developer with a strong foundation in HTML, CSS, and JavaScript, with a particular focus on Reactjs.</p>
                     </div>
-                    <a href="https://drive.usercontent.google.com/u/0/uc?id=1yZQyKWBwKRjF26eieV1PUQkxQ9jFinFx&export=download" className='font-semibold w-36 rounded-md mt-2 mx-auto lg:mx-0 flex gap-2 align-center justify-center text-sm p-2 bg-sky-400 text-white hover:bg-sky-500'>
+                    <a href="https://drive.usercontent.google.com/u/0/uc?id=1yZQyKWBwKRjF26eieV1PUQkxQ9jFinFx&export=download" className='font-semibold w-36 rounded-md mt-3 mx-auto lg:mx-0 flex gap-2 align-center justify-center text-sm p-2 bg-sky-400 text-white hover:bg-sky-500'>
                         Download CV
                     </a>
                 </div>
