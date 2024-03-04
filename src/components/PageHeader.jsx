@@ -6,7 +6,11 @@ const PageHeader = (props) => {
 
     return (
         <div className='flex justify-between py-4 relative px-4'>
-            <h1 className='text-2xl font-bold text-sky-400'>Chris .</h1>
+            <h1 className='text-2xl font-bold text-sky-400 cursor-pointer'>
+                <Link to='/'>
+                    Chris .
+                </Link>
+                </h1>
             <div>
                 <ul className='gap-5 font-semibold hidden md:flex'>
                     {pageheaderdata.map((val, index) => (
