@@ -1,5 +1,6 @@
 import { FaReact } from "react-icons/fa";
-
+import pokedex from "../assets/images/pokedexThumbnail.png"
+import dashboardThumbnail from "../assets/images/dashboardThumbnail.png"
 export const projects = [
     {
         title: 'Pokedex',
@@ -17,6 +18,7 @@ export const projects = [
         description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex odio non tempora incidunt perferendis quis! Eaque natus consequatur deleniti ut unde aut minima? Porro, eaque assumenda enim consequatur officiis cumque!',
         repository: 'https://github.com/senaCeejay/pokedex',
         live: 'https://pokedex-indol-delta.vercel.app/',
+        thumbnail: pokedex,
     },
     {
         title: 'Task Management',
@@ -34,5 +36,6 @@ export const projects = [
         description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex odio non tempora incidunt perferendis quis! Eaque natus consequatur deleniti ut unde aut minima? Porro, eaque assumenda enim consequatur officiis cumque!',
         repository: 'https://github.com/senaCeejay/dashboard-v1',
         live: 'https://dashboard-v1-one.vercel.app/',
+        thumbnail: dashboardThumbnail,
     },
 ]
