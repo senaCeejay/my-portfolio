@@ -44,7 +44,9 @@ const Project = () => {
                             <button className='p-2 bg-sky-400 rounded-md hover:bg-sky-500 text-white duration-300' onClick={() => {
                                 toggleModal(val); // Pass the entire val object
                             }}>Details</button>
-                            <button className='p-2 rounded-md border border-sky-400 text-sky-400 ' onClick={() => window.open(val.live)}>Live Preview</button>
+                            {val.live &&
+                                <button className='p-2 rounded-md border border-sky-400 text-sky-400 ' onClick={() => window.open(val.live)}>Live Preview</button>
+                            }
                         </div>
                     </div>
                 ))}

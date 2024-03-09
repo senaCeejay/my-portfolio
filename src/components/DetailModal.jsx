@@ -9,7 +9,7 @@ const DetailModal = ({ project, closeModal }) => {
                     <button className="rounded-full hover:bg-gray-100 p-1" onClick={closeModal}><MdOutlineClose size={25} /></button>
                 </div>
                 <div className='relative'>
-                    <img src={project.image} alt={project.title} className="w-full rounded-lg mb-4" />
+                    <img src={project.thumbnail} alt={project.title} className="w-full rounded-lg mb-4" />
                     <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full flex items-center justify-center opacity-0 hover:opacity-100 duration-300 bg-gradient-to-t from-slate-100 to-transparent cursor-pointer">
                         <img className='w-[50px]' src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" onClick={() => window.open(project.repository)} />
                     </div>
