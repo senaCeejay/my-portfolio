@@ -35,7 +35,7 @@ const Project = () => {
                         <div className='flex gap-2'>
                             {val.language.map((vals, index) => (
                                 <>
-                                    <span className='flex items-center gap-1' key={index}>{vals.name} |</span>
+                                    <span className='flex items-center gap-1' key={index}>{vals.name}</span>
                                 </>
                             ))}
                         </div>
