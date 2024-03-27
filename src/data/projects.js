@@ -4,6 +4,7 @@ import dashboardThumbnail from "../assets/images/dashboardThumbnail.png"
 import GreeneryThumbnail from "../assets/images/GreeneryThumbnail.png"
 import dreamhouseThumbnail from "../assets/images/dreamhouseThumbnail.png"
 import theConsoleThumbnail from "../assets/images/theConsoleThumbnail.png"
+import TravelblogThumbnail from "../assets/images/TravelblogThumbnail.png"
 export const projects = [
     {
         title: 'Pokedex',
@@ -114,5 +115,30 @@ export const projects = [
         repository: 'https://github.com/richardjohnagrida/capstone',
         live: '',
         thumbnail: theConsoleThumbnail,
+    },
+    {
+        title: 'TravelBlog',
+        language: [
+            {
+                name: 'CSS',
+                icon: '',
+            },
+            {
+                name: 'HTML',
+                icon: '',
+            },
+            {
+                name: 'Tailwind CSS',
+                icon: '',
+            },
+            {
+                name: 'React JS',
+                icon: '',
+            },
+        ],
+        description: 'A Website that can rent a video game and webapp that has admin panel',
+        repository: 'https://github.com/senaCeejay/explorer',
+        live: 'https://explorer-g7k2gdgb0-senaceejays-projects.vercel.app/',
+        thumbnail: TravelblogThumbnail,
     },
 ]
