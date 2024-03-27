@@ -128,7 +128,7 @@ export const projects = [
                 icon: '',
             },
             {
-                name: 'Tailwind CSS',
+                name: 'Tailwind',
                 icon: '',
             },
             {
