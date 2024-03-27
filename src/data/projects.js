@@ -136,7 +136,7 @@ export const projects = [
                 icon: '',
             },
         ],
-        description: 'A Website that can rent a video game and webapp that has admin panel',
+        description: 'A Website for travelblog',
         repository: 'https://github.com/senaCeejay/explorer',
         live: 'https://explorer-g7k2gdgb0-senaceejays-projects.vercel.app/',
         thumbnail: TravelblogThumbnail,
